@@ -5,8 +5,7 @@
 
 #top {
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
 }
 
@@ -40,4 +39,18 @@ a {
 #datail-box {
     text-align: center;
     font-family: "Noto Sans JP", sans-serif;
+}
+
+body {
+    background-color: #00d1b20f;
+}
+
+#top-title {
+    font-family: Roboto;
+}
+
+#top {
+    margin: 10px 0;
+    padding: 10px;
+    border: solid 1px black;
 }
