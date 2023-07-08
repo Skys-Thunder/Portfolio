@@ -3,14 +3,11 @@
     src: url("reitam.otf") format("opentype");
 }
 
-* {
-    font-family: "Noto Sans JP", sans-serif;
-}
-
 #top {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
+    justify-content: center;
 }
 
 #icon {
@@ -27,7 +24,20 @@
     font-family: "reitam";
 }
 
-span {
+#detail span {
     font-size: 1.2rem;
     color: #b5b5b5;
+}
+
+#main {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+#datail-box {
+    text-align: center;
+    font-family: "Noto Sans JP", sans-serif;
 }
