@@ -1,0 +1,28 @@
+@font-face {
+    font-family: reitam;
+    src: url("reitam.otf") format("opentype");
+}
+
+* {
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+#top {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+#icon {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+#detail {
+    margin-left: 30px;
+}
+
+.name {
+    font-family: "reitam";
+}
