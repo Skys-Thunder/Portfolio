@@ -47,6 +47,8 @@ body {
 
 #top-title {
     font-family: Roboto;
+    background-color: seagreen;
+    color: white;
 }
 
 #top {
