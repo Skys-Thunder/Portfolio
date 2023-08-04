@@ -7,20 +7,3 @@ async function gets(){
 }
 
 gets();
-
-var charts = document.querySelector("#myChart").getContext('2d');
-new Chart(charts, {
-  type: 'line',
-  data: {
-    labels: ["7/21","7/22"],
-    datasets: [{
-      label: "解いた問題数",
-      data: [596,0],
-      borderColor: '#ff6347',
-      backgroundColor: '#ff6347',
-    }],
-  },
-  options: {
-    responsive: false,
-  }
-})
