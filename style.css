@@ -57,9 +57,3 @@ body {
     padding: 10px;
     border: solid 1px black;
 }
-
-#chartcont {
-    display: flex;
-    justify-content: center;
-}
-
