@@ -65,7 +65,7 @@ body {
 
 #headers li{
     display: inline-block;
-    padding-left: 20px;
+    padding: 15px;
 }
 
 #header h1, li{
