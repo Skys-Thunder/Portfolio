@@ -48,12 +48,22 @@ body {
 #top-title {
     font-family: Roboto;
     background-color: seagreen;
-    color: white;
-    padding: 5px;
 }
 
 #top {
     margin: 10px 300px;
     padding: 10px;
     border: solid 1px black;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: seagreen;
+}
+
+#headers li{
+    display: inline-block;
+    padding-left: 20px;
 }
