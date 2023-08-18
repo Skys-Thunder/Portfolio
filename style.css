@@ -67,3 +67,7 @@ body {
     display: inline-block;
     padding-left: 20px;
 }
+
+#header h1, li{
+    color: white;
+}
