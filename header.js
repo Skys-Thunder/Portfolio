@@ -10,7 +10,7 @@
 */
 
 hse = document.querySelector("#main");
-hse.insertAdjacentHTML("afterbegin", `        <div id="header">
+hse.insertAdjacentHTML("beforebegin", `        <div id="header">
             <h1 id="top-title">Sky_Thunder</h1>
             <ul id="headers">
                 <li>About</li>
