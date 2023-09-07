@@ -41,13 +41,14 @@ a {
 }
 
 body {
-    background-color: #e3e1e1;
+    background-color: #edecec;
 }
 
 #top {
+    background-color: white;
+    box-shadow: 5px 5px 0px 0px rgba(0,0,0,.2);
     margin: 10px 300px;
     padding: 10px;
-    border: solid 1px black;
 }
 
 * {
